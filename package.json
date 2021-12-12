@@ -1,0 +1,29 @@
+{
+  "name": "install_redis_on_mac",
+  "version": "1.0.0",
+  "description": "The detailed installation guide to install Redis on Mac",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Som23Git/Install_Redis_on_Mac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Som23Git/Install_Redis_on_Mac/issues"
+  },
+  "homepage": "https://github.com/Som23Git/Install_Redis_on_Mac#readme",
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "express": "^4.17.1",
+    "node-fetch": "^3.1.0",
+    "redis": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
