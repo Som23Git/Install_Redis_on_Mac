@@ -28,7 +28,7 @@ async function getRepos(req, res, next) {
         const repos = data.public_repos;
 
         //Set data to Redis
-        client.setEx(username, 3600, repos);
+        client.setex(username, 3600, repos);
 
         res.send(setResponse(username, repos));
         //res.send(data);
